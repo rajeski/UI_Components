@@ -1,0 +1,21 @@
+.product-item { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px; 
+  transition: all 0.3s ease; 
+  border-radius: 3px; 
+} 
+ 
+.product-item:hover { 
+  background-color: #E6E6E6; 
+} 
+ 
+.product-upvote { 
+  padding: 10px 20px; 
+} 
+ 
+.product-description { 
+  padding: 10px 20px; 
+  flex: 1 0 auto; 
+} 

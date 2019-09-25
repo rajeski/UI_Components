@@ -1,0 +1,37 @@
+
+.badge-container { 
+  display: inline-block; 
+  position: relative; 
+ } 
+ 
+.badge-container .badge { 
+  background-color: red; 
+  color: white; 
+  position: absolute; 
+  top: -5px; 
+  right: -5px; 
+  padding: 4px; 
+  border-radius: 25px; 
+ } 
+ 
+.banner { 
+  height: 200px; 
+  background-image: linear-gradient(130deg, rgba(0, 0, 255, 0.25), rgba(255, 0, 0, 0.25)), url("https://unsplash.it/800/400/?random"); 
+  background-size: cover; 
+  color: white; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
+ 
+.banner-screen { 
+  height: 100vh; 
+  background-image: linear-gradient(130deg, rgba(0, 0, 255, 0.25), rgba(255, 0, 0, 0.25)), url("https://unsplash.it/1000/800/?random"); 
+} 
+.banner h1 { 
+  font-size: 50px; 
+} 
+.banner p { 
+  font-size: 30px; 
+  font-weight: lighter; 
+} 
